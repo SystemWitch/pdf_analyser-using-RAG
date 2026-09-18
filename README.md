@@ -2,8 +2,6 @@
 
 Interact with multiple PDF files using powerful AI models like **Gemini 1.5 (Google AI)** to extract insights, analyze financial data, and answer questions based on uploaded documents. This app is especially useful for analyzing **annual reports** and **financial statements** of Indian stock market companies.
 
-![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange?style=flat-square&logo=streamlit)
-
 ---
 
 ## 🚀 Features
