@@ -16,50 +16,6 @@ Interact with multiple PDF files using powerful AI models like **Gemini 1.5 (Goo
 
 ---
 
-## 🛠️ Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/rakshithsantosh/pdf-chatbot-gemini.git
-cd pdf-chatbot-gemini
-```
-
-### 2. Set Up a Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Required Dependencies
-
-```bash
-# Using pip
-pip install -r requirements.txt
-
-# Or using uv (recommended)
-uv sync
-```
-
-### 4. Run the App
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 🔐 Google AI API Key
-
-To use Gemini models and embeddings:
-
-1. Visit [Google AI Studio](https://ai.google.dev/)
-2. Generate your API key
-3. Enter the key in the **Streamlit sidebar**
-
----
-
 ## 📦 Tech Stack
 
 | Tech       | Purpose                                  |
@@ -71,17 +27,6 @@ To use Gemini models and embeddings:
 | FAISS      | Vector database for similarity search    |
 | Pandas     | Exporting conversation as CSV            |
 | HTML/CSS   | Custom chat UI inside Streamlit          |
-
----
-
-## 📁 File Structure
-
-```
-├── app.py               # Main Streamlit app
-├── faiss_index/         # Folder where vectorstore is saved
-├── requirements.txt     # Required Python packages
-└── README.md            # You're here!
-```
 
 ---
 
@@ -102,13 +47,6 @@ This tool is **finance-aware**. The prompt guides the LLM to:
 - Identify suspicious **related-party transactions**
 - Audit **CFO to Net Profit** conversion trends
 - Track increase in **Key Managerial Personnel (KMP)** pay
-
----
-
-## 👤 Author
-
-- [Rakshith Santosh](https://www.linkedin.com/in/rak-99-s)
-- [GitHub](https://github.com/rakshithsantosh)
 
 ---
 
